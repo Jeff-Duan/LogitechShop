@@ -1,0 +1,216 @@
+.from-div-list{
+    position: relative;
+    background: #ffffff;
+    height: 54px;
+    border: 1px solid #d8d8d8;
+    overflow: hidden;
+
+}
+.from-div-list .label-text{
+    position: absolute;
+    left: 0;
+    top:0;
+    line-height: 54px;
+    color: #171717;
+    font-size: 14px;
+    font-family: "microsoft yahei", Verdana, Arial;
+    padding-left: 10px;
+}
+.from-div-list .input-text{
+    height: 54px;
+    border: 0;
+    display: block;
+    padding-left: 115px;
+    width: 100%;
+    font-size: 14px;
+}
+.from-div-list .input-text:focus{
+    outline: 0;
+}
+.get-code{
+    position: absolute;
+    right: 1px;
+    top:1px;
+    display: block;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #e9e9e9;
+    color: #5e5e5e;
+}
+
+.register-box{
+    width: 400px;
+    margin: 40px auto;
+    font-family: "simsun", Verdana, Arial;
+    font-size: 12px;
+}
+.register-box .footer-p-tool{
+   text-align: center;
+    line-height: 30px;
+    margin-top: 15px;
+}
+.register-box .footer-p-tool a{
+    color: #0083ca;
+}
+.register-title{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+.register-title .name{
+    color: #010101;
+    font-size: 18px;
+    font-family: "microsoft yahei", Verdana, Arial;
+}
+.register-title .right-text{
+    top:0;
+    position: absolute;
+    right: 0;
+}
+.register-title .right-text a{
+    color: #2369aa;
+}
+
+
+.register-info-box{
+    background: #fffff0;
+    border: 1px solid #ffcc66;
+    line-height: 20px;
+    padding:8px 10px;
+    color: #ffaa00;
+    margin-bottom: 12px;
+}
+.register-info-box .icon-gif{
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    margin-top: -4px;
+    background: url("../images/icon-login-gif.png") no-repeat;
+}
+.register-info-box .icon-round-info{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon-round-info.png") no-repeat;
+    margin-top: -3px;
+}
+.register-info-box span{
+    color: #666666;
+}
+.from-group-ul .list{
+    position: relative;
+    margin-bottom: 38px;
+}
+
+.from-group-ul .list.ok .icon-ok{
+    position: absolute;
+    right: 15px;
+    top:50%;
+    margin-top: -8px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon-input-ok.png") no-repeat;
+}
+
+.from-group-ul .list.info .info{
+    display: block;
+    color: #c4c4c4;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left:22px;
+    background: url("../images/icon-info-default.png") no-repeat left center;
+}
+.from-group-ul .list .info{
+    position: absolute;
+    left: 0;
+    top:100%;
+    display: none;
+}
+
+
+.from-group-ul .list.error .info{
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left:22px;
+    background: url("../images/icon-info-error.png") no-repeat left center;
+    color: #ff3736;
+}
+
+/*.from-group-ul .list.error .from-div-list{
+    border: 1px solid #171717;
+}*/
+
+.from-group-ul .list.password .info-password{
+    position: absolute;
+    left: 0;
+    top:100%;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left:22px;
+    background: url("../images/icon-password-l.png") no-repeat left center;
+    color: #c4c4c4;
+}
+.from-group-ul .list.password .info-password.l{
+    background: url("../images/icon-password-l.png") no-repeat left center;
+}
+.from-group-ul .list.password .info-password.z{
+    background: url("../images/icon-password-z.png") no-repeat left center;
+}
+
+.from-group-ul .list.password .info-password.q{
+    background: url("../images/icon-password-q.png") no-repeat left center;
+}
+
+.check-p{
+    color: #9c9c9c;
+    font-size: 12px;
+    margin-bottom: 23px;
+}
+
+.check-p input{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 8px;
+}
+.check-p a{
+    color: #9c9c9c;
+}
+.success-info-box{
+    padding: 60px 0;
+    text-align: center;
+    font-family: "simsun", Verdana, Arial;
+}
+
+.success-info-box .h4-info{
+    color: #868686;
+}
+.success-info-box .h4-info strong{
+    color: #ff3736;
+    font-size: 18px;
+    font-family: "microsoft yahei", Verdana, Arial;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.success-info-box .info-footer{
+    margin-top: 20px;
+}
+.success-info-box .info-footer p{
+    margin-top: 10px;
+    line-height: 30px;
+}
+.success-info-box .info-footer p a.link-a{
+    font-size: 12px;
+    color: #0083ca;
+}

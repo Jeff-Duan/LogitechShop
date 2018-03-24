@@ -1,0 +1,53 @@
+
+#container {
+	width:600px;
+	height:50px;
+	margin:-20px auto;
+}
+div.search {
+	padding:10px 0;
+}
+form {
+	position:relative;
+	width:400px;
+	margin:0 auto;
+	margin-left:180px;
+	box-sizing:border-box;
+}
+input,button {
+	border:none;
+	outline:none;
+	
+}
+input {
+	width:100%;
+	height:42px;
+	padding-left:13px;
+	box-sizing:border-box;
+}
+button {
+	height:42px;
+	width:42px;
+	cursor:pointer;
+	position:absolute;
+	box-sizing:border-box;
+}
+.bar6 input {
+	border:2px solid #c5464a;
+	border-radius:5px;
+	background:transparent;
+	top:0;
+	right:0;
+}
+.bar6 button {
+	background:#c5464a;
+	border-radius:0 5px 5px 0;
+	width:60px;
+	top:0;
+	right:0;
+}
+.bar6 button:before {
+	content:"搜索";
+	font-size:13px;
+	color:#F9F0DA;
+}

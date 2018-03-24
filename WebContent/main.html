@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>罗技商城</title>
+<link rel="stylesheet" type="text/css" href="/Logitech/static/css/styless.css">
+<link rel="stylesheet" type="text/css" href="/Logitech/static/css/erji.css"/>
+<link rel="stylesheet" type="text/css" href="/Logitech/static/css/reserch.css"/>
+<script src="/Logitech/static/js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/Logitech/static/prigun/layer-v3.0.3/layer/layer.js" type="text/javascript"></script>
+</head>
+
+<body> 
+	<div id="wrapper">
+<div class="cart-icon-top">
+</div>
+
+<div class="cart-icon-bottom">
+</div>
+
+<div id="checkout">
+	结账 
+</div>
+
+<div id="info">
+
+</div>
+
+<div id="header">	
+	<ul>
+        <li><a href="/Shop/JSP/Index.jsp">首页</a></li>
+        <li><a href="#">个人中心</a></li>
+        <li><a href="/Shop/QueryCarServlet">我的购物车</a></li>
+        <li>
+        <div id="container">
+    		<div class="search bar6">
+        <form>
+            <input placeholder="请输入关键字" name="cname" type="text">
+            <button type="submit"></button>
+        </form>
+    		</div>
+    	</div>
+        </li>
+        <li style="margin-left:10px"><a href="#">登录</a></li>
+        <li style="margin-left:10px"><a href="#" onclick="Exit()">安全退出</a></li>
+        <li style="margin-left:10px"><a href="#">关于我们</a></li>
+    </ul>		
+</div>
+
+<div id="sidebar">
+	<h3>CART</h3>
+    <div id="cart">
+    	<span class="empty">购物车空空的~</span>       
+    </div> 
+ <!--  二级菜单导航 -->
+    <script>
+$(function (){
+  $(".left_nav dd").hover(function(){
+  $(".nav_right",this).show();
+  });
+  $(".left_nav dd").mouseleave(function(){
+  $(".nav_right",this).hide();
+  });
+});
+</script>
+  <div class="left_nav">
+    <dl>
+    <dt>分类</dt>
+    <dd>
+    	<a href="javascript:" class="nav_left">鼠标和键盘</a>
+    	<div class="nav_right">
+    		<a href="javascript:">鼠标</a>
+    		<a href="javascript:">鼠标+键盘套装</a>
+    		<a href="javascript:">演示器</a>
+    	</div>
+    </dd>
+    <dd>
+    	<a href="javascript:" class="nav_left">移动</a>
+    	<div class="nav_right">
+    		<a href="javascript:">移动支架</a>
+    		<a href="javascript:">平板电脑保护套</a>
+    		<a href="javascript:">平板电脑键盘</a>
+    		<a href="javascript:">智能手机配件</a>
+    	</div>
+    </dd>
+    <dd>
+    	<a href="javascript:" class="nav_left">游戏外设</a>
+    	<div class="nav_right">
+    		<a href="javascript:">鼠标</a>
+    		<a href="javascript:">键盘</a>
+    		<a href="javascript:">视频/音频</a>
+    		<a href="javascript:">驾驶</a>
+    		<a href="javascript:">游戏手柄</a>
+    	</div>
+    </dd>
+    <dd>
+    	<a href="javascript:" class="nav_left">音响</a>
+    	<div class="nav_right">
+    		<a href="javascript:">蓝牙音响</a>
+    		<a href="javascript:">环绕声系统</a>
+    	</div>
+    </dd>
+    <dd>
+    	<a href="javascript:" class="nav_left">视频</a>
+    	<div class="nav_right">
+    		<a href="javascript:">网络摄像头</a>
+    		<a href="javascript:">会议摄像头</a>
+    		<a href="javascript:">视频协作</a>
+    		<a href="javascript:">耳机麦克风</a>
+    		<a href="javascript:">配件</a>
+    	</div>
+    </dd>
+    <dd>
+    	<a href="javascript:" class="nav_left">支持</a>
+    	<div class="nav_right">
+    		<a href="javascript:">支持和下载</a>
+    		<a href="javascript:">论坛</a>
+    	</div>
+    </dd>
+    
+    </dl>
+  </div>
+
+    
+<div id="grid-selector">
+       <div id="grid-menu">
+       	   View:
+           <ul>           	   
+               <li class="largeGrid"><a href=""></a></li>
+               <li class="smallGrid"><a class="active" href=""></a></li>
+           </ul>
+       </div>
+</div>
+
+
+
+<div id="grid">
+    	
+    	<div id="title" style="position: absolute; width:85%;height:80px;margin-top:-80px;border-bottom: 1px solid gainsboro;">
+   		<font style="position: absolute;line-height:80px; font-size: 40px;font-family:微软雅黑 ;color:black;margin-left: 20px">
+   				
+						商品类别名称
+				
+   		</font>
+   		</div>
+ 		<div class="product">
+        <div class="make3D">
+            <div class="product-front">
+                <div class="shadow"></div>
+                <img src="img/$R2RFJ0K.png" alt="" />
+                <div class="image_overlay"></div>
+                <div class="add_to_cart">加入购物车</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">鼠标价格</span>
+                        <span class="product_name">鼠标名称</span>    
+                        <p>鼠标简介</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>SIZES</strong>
+                        <span>XS, S, M, L, XL, XXL</span>
+                        <strong>鼠标颜色</strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    	</div>                       
+                    </div>                         
+                </div>
+            </div>  
+    	</div>
+    	
+     </div>
+</div>
+</div>
+	
+<script src='js/JQuery/stopExecutionOnTimeout.js?t=1'></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
